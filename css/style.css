@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Acumin Variable Concept";
+  src: url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.eot");
+  src: url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.svg#Acumin Variable Concept")
+      format("svg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Acumin Variable Concept", serif;
+}
+body {
+  position: relative;
+}
+
+.home-header {
+  width: 100%;
+  background-size: contain;
+  border-color: brown;
+  margin-bottom: -60px;
+}
+.home-header img {
+  width: 100%;
+}
+
+aside {
+  position: fixed;
+  left: 30px;
+  top: 40vh;
+  text-transform: uppercase;
+}
+aside nav ul {
+  list-style-type: none;
+}
+aside nav ul li {
+  margin-bottom: 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a.active {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home-main {
+  height: 75vh;
+  background: url("../img/main-bg.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 130vh;
+  margin: 0 auto;
+  /* background-color: #cccccc; */
+}
