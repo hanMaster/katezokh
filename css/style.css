@@ -34,7 +34,7 @@ body {
 
 aside {
   position: fixed;
-  left: 30px;
+  left: 100px;
   top: 40vh;
   text-transform: uppercase;
 }
@@ -71,4 +71,77 @@ nav ul li a.active {
   width: 130vh;
   margin: 0 auto;
   /* background-color: #cccccc; */
+}
+
+.page-header {
+  height: 100px;
+  margin: 30px auto 0;
+}
+
+.page-header img {
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.page-main {
+  width: 60vw;
+  margin: 150px auto 0;
+}
+
+.about__img {
+  width: 200px;
+  height: auto;
+}
+
+.about__content {
+  display: flex;
+  align-items: center;
+}
+
+.about__text {
+  /* max-width: 50%; */
+  margin-left: 50px;
+}
+
+.art__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  width: 200px;
+}
+
+.year-block {
+  margin-right: 50px;
+}
+
+.detail__content {
+  margin-top: -40px;
+  display: flex;
+}
+
+.detail__img {
+  height: 60vh;
+}
+
+.description {
+  margin-left: 30px;
+}
+
+.description h2,
+.description h3,
+.description h4,
+.description p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.description h2 {
+  font-size: 18px;
+}
+
+.description h3 {
+  font-size: 14px;
 }
